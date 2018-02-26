@@ -6,8 +6,5 @@ pipeline:
       - date
       - echo $pwd
       - echo fertig
-      - apk update
-      - apk add bash
-      - bash 
       
       
