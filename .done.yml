@@ -2,5 +2,5 @@ pipeline:
   erster:
     image: alpine
     commands:
-      - echo alles ok
+      - echo "alles ok"
       
