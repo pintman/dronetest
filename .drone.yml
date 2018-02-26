@@ -1,11 +1,8 @@
 pipeline:
   build:
-    image: alpine
+    image: python:alpine
     commands:
-      - echo alles ok
-      - date
-      - echo $pwd
-      - echo fertig
+      - python3 tmp.py
 
 
       
